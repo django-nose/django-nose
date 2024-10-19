@@ -1,18 +1,18 @@
-# Python binaries
+# Python bytecode
 *.py[cod]
 
-# Editor backups, OS files
+# Editor backups and OS files
 *.swp
 *~
 .DS_Store
 
-# Distutils cruft
+# Distribution files
 *.egg-info
 South-*.egg/
 build/
 dist/
 
-# Unit test / coverage reports
+# Unit test and coverage reports
 .tox/
 .coverage
 .coverage.*
@@ -26,3 +26,4 @@ docs/_build/*
 
 # pyenv
 .python-version
+
