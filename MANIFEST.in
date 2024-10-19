@@ -1,3 +1,4 @@
+# Include essential files
 include AUTHORS.rst
 include CONTRIBUTING.rst
 include LICENSE
@@ -10,11 +11,15 @@ include requirements.txt
 include requirements-rtd.txt
 include runtests.sh
 
+# Include documentation files
 recursive-include docs Makefile conf.py *.rst make.bat .keep
+
+# Include package files
 recursive-include django_nose *.py
 recursive-include testapp *.py
 recursive-include testapp/fixtures *.json
 recursive-include unittests *.py
 
+# Exclude unnecessary files
 recursive-exclude * *.py[co]
 recursive-exclude * __pycache__
